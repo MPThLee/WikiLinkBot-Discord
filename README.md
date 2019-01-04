@@ -30,13 +30,13 @@ Setting
 Example is on `setting.py.example`.
 See Also: [Make a Discord Bot with Python](https://www.devdungeon.com/content/make-discord-bot-python)
 
-`TOKEN` is bot token.
+`TOKEN` is Bot token.
 
 `BASEURL` is Wiki's baseurl.<br>
-`BASEURL = "https://mediawiki.org/wiki/"` and `[[Main Page]]` will transform into `https://mediawiki.org/wiki/Main_Page`
+With example config, `[[Main Page]]` will transform into `https://mediawiki.org/wiki/Main_Page`
 
 `INTERWIKI` is list of interwikis.<br>
 When it starts with one of list. `BASEURL` will replaced to its URL.<br>
-With exmaple config, `[[wikipedia:Wikipedia:Bots]]` will transform into `https://en.wikipedia.org/wiki/Wikipedia:Bots`<br>
-**WARNING: Interwiki's name is Lowercase ONLY. if isn't, will not WORK**
+With example config, `[[wikipedia:Wikipedia:Bots]]` will transform into `https://en.wikipedia.org/wiki/Wikipedia:Bots`<br>
+**WARNING: Interwiki's names are Lowercase ONLY. if isn't, will not WORK**
 
