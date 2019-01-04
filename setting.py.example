@@ -1,0 +1,6 @@
+TOKEN = "DISCORD_BOT_TOKEN"
+BASEURL = "https://mediawiki.org/wiki/"
+INTERWIKI = {
+    'commons': 'https://commons.wikimedia.org/wiki/',
+    'wikipedia':	'https://en.wikipedia.org/wiki/',
+}
